@@ -1,0 +1,20 @@
+@import "./base.css";
+
+body {
+  font-size: 0.825rem;
+  font-weight: normal;
+  background-color: #f5f7fa;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
